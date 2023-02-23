@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app > main {
+  flex-grow: 1;
+  background-color: var(--amarillo);
+}
+
+/*#####################################################################*/
+
+/*
+### RESPONSIVE PARA TABLET ##
+#############################
+#### MEDIA QUERY: 700px #####
+#############################
+*/
+/*Todo esto son cambios específicos que se aplicarán a partir de los 700 píxeles*/
+@media (min-width: 700px) {
+  .app > main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}

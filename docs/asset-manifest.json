@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/modber-tasklist/static/css/main.78b0501a.css",
+    "main.js": "/modber-tasklist/static/js/main.fcc6c3e3.js",
+    "index.html": "/modber-tasklist/index.html",
+    "main.78b0501a.css.map": "/modber-tasklist/static/css/main.78b0501a.css.map",
+    "main.fcc6c3e3.js.map": "/modber-tasklist/static/js/main.fcc6c3e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b0501a.css",
+    "static/js/main.fcc6c3e3.js"
+  ]
+}

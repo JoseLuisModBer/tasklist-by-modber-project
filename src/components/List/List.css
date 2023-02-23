@@ -1,0 +1,229 @@
+/*
+####################
+## LIST COMPONENT ##
+####################
+*/
+
+/*Formulario para nuevas tareas -----------------------------------*/
+.new-task-form {
+  background-color: var(--azulClaro);
+  margin: 1rem 20px 20px 20px;
+  padding: 1rem;
+  border: 2px solid var(--azulOscuro);
+  border-radius: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.new-task-form > .text-input {
+  border: 2px solid var(--azulOscuro);
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.new-task-form > .form-button {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--verde);
+  border-radius: 0.5rem;
+  margin-left: 10px;
+  border: 2px solid black;
+  padding: 0.5rem;
+}
+
+.new-task-form > .form-button:hover {
+  background-color: var(--verdeHover);
+}
+
+/* H2 y botones de borrado -----------------------------------*/
+.h2-errasebuttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0rem;
+}
+
+.h2-errasebuttons-container > h2 {
+  align-self: center;
+  font-size: 1.6rem;
+}
+
+.h2-errasebuttons-container > .errase-buttons-container {
+  align-self: center;
+  padding: 0.5rem 0rem;
+}
+
+.h2-errasebuttons-container > .errase-buttons-container > .erraseall-button,
+.h2-errasebuttons-container > .errase-buttons-container > .errasedone-button {
+  align-self: center;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--rojo);
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  box-shadow: 4px 4px 3px 1px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0.5rem;
+}
+
+.h2-errasebuttons-container > .errase-buttons-container > .errasedone-button {
+  margin-left: 1rem;
+}
+
+.h2-errasebuttons-container
+  > .errase-buttons-container
+  > .erraseall-button:hover,
+.h2-errasebuttons-container
+  > .errase-buttons-container
+  > .errasedone-button:hover {
+  background-color: var(--rojoHover);
+}
+
+/* Tareas --------------------------------------------------------*/
+.ul-tasks-container {
+  background-color: var(--azulClaro);
+  margin: 10px 20px 20px 20px;
+  padding: 1rem;
+  border: 2px solid var(--azulOscuro);
+  border-radius: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ul-tasks-container > .li-task-done,
+.ul-tasks-container > .li-task-pending {
+  list-style: none;
+  align-self: flex-start;
+  padding: 8px 0px;
+}
+
+.ul-tasks-container > .li-task-done {
+  text-decoration: line-through;
+  color: var(--rojo);
+  font-weight: bold;
+}
+
+.li-checkbox-container {
+  font-size: 1rem;
+  display: flex;
+}
+.li-checkbox-container > .checkbox {
+  scale: 1;
+}
+.li-checkbox-container > .p-checkbox-text {
+  margin-left: 1rem;
+}
+
+/*#####################################################################*/
+
+/*
+### RESPONSIVE PARA TABLET ##
+#############################
+#### MEDIA QUERY: 700px #####
+#############################
+*/
+/*Todo esto son cambios específicos que se aplicarán a partir de los 700 píxeles*/
+@media (min-width: 700px) {
+  /*Formulario para nuevas tareas -----------------------------------*/
+  .new-task-form {
+    border: 3px solid var(--azulOscuro);
+    margin: 1rem 100px 20px 100px;
+  }
+
+  .new-task-form > .text-input {
+    border: 3px solid var(--azulOscuro);
+    font-size: 20px;
+  }
+
+  .new-task-form > .form-button {
+    font-size: 20px;
+  }
+  /* H2 y botones de borrado -----------------------------------*/
+  .h2-errasebuttons-container {
+    padding: 2rem 0rem 1rem 0rem;
+  }
+
+  .h2-errasebuttons-container > h2 {
+    font-size: 2.5rem;
+  }
+
+  .h2-errasebuttons-container > .errase-buttons-container > .erraseall-button,
+  .h2-errasebuttons-container > .errase-buttons-container > .errasedone-button {
+    font-size: 20px;
+    margin-top: 7px;
+  }
+
+  /* Tareas --------------------------------------------------------*/
+  .ul-tasks-container {
+    margin: 10px 100px;
+    padding: 1rem;
+    border: 3px solid var(--azulOscuro);
+  }
+
+  .ul-tasks-container > .li-task-done,
+  .ul-tasks-container > .li-task-pending {
+    font-size: 20px;
+    list-style: none;
+    align-self: flex-start;
+    padding: 8px 0px;
+  }
+
+  /*   .tareas {
+    margin-left: 2rem;
+  } */
+
+  .ul-tasks-container > .li-task-done {
+    text-decoration: line-through;
+    color: var(--rojo);
+    font-weight: bold;
+  }
+
+  .li-checkbox-container {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .li-checkbox-container > .checkbox {
+    scale: 2;
+  }
+  .li-checkbox-container > .p-checkbox-text {
+    margin-left: 1.5rem;
+  }
+}
+
+/*####################################################################*/
+
+/*
+##### RESPONSIVE PARA PC ####
+#############################
+#### MEDIA QUERY: 1200px ####
+#############################
+*/
+/*Todo esto son cambios específicos que se aplicarán a partir de los 1200 píxeles*/
+@media (min-width: 1200px) {
+  /*Formulario para nuevas tareas -----------------------------------*/
+  .new-task-form {
+    margin: 1rem 20rem;
+  }
+
+  .new-task-form > .form-button {
+    font-size: 16px;
+  }
+  /* H2 y botones de borrado -----------------------------------*/
+  .h2-errasebuttons-container > .errase-buttons-container > .erraseall-button,
+  .h2-errasebuttons-container > .errase-buttons-container > .errasedone-button {
+    /*align-self: center;*/
+    font-size: 16px;
+    margin-top: 9px;
+  }
+  /* Tareas --------------------------------------------------------*/
+  .ul-tasks-container {
+    margin: 10px 20rem;
+  }
+
+  .li-checkbox-container > .p-checkbox-text {
+    margin-left: 2rem;
+  }
+}

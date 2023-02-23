@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&family=Permanent+Marker&family=Shantell+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --azulOscuro: #4cc9c2;
+  --azulClaro: #c9e9e8;
+  --amarillo: #f2e2ba;
+  --rojo: #fa736a;
+  --rojoHover: #fab8b3;
+  --verde: #50da72;
+  --verdeHover: #96dba7;
+}
+
+h1,
+h2 {
+  font-family: 'Permanent Marker', sans-serif;
+  letter-spacing: 0.1rem;
+  color: var(--rojo);
+}
+
+h3 {
+  font-family: 'Shantell Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  color: var(--azulOscuro);
+}
+
+p,
+input,
+button,
+li {
+  font-family: 'Shantell Sans', sans-serif;
+}
