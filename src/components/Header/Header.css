@@ -13,10 +13,12 @@
 
 /*H1*/
 .app > header > h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
   border: 4px solid var(--rojo);
   border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding: 0px 20px 2px 20px;
   background-color: var(--amarillo);
   box-shadow: 8px 8px 5px 3px rgba(0, 0, 0, 0.15);
