@@ -16,6 +16,31 @@ Este proyecto ha sido creado por Jose Luis Modroño Berdiñas (ModBer) utilizand
 Una tasklist fácil de usar, ideal para hacer la lista de la compra o apuntar tareas pendientes. Haz tu vida más fácil con tasklist by ModBer.
 ```
 
+## CÓMO DESPLEGAR ESTE PROYECTO EN TU PC:
+
+Para desplegar este proyecto en tu PC basta con seguir estos pasos:
+
+- Copia el código SSH de mi repositorio de GitHub.
+- Usa el terminal para posicionarte en la ruta donde desees descargar mi repositorio.
+- Una vez posicionado, introduce el comando git clone seguido del SSH para clonar mi repositorio en tu pc.
+
+```
+git clone git@github.com:JoseLuisModBer/tasklist-by-modber-project.git
+```
+
+- Abre el proyecto con algún editor de código (recomiendo Visual Studio Code).
+- Usa el terminal para ejecutar el comando npm i (de este modo instalarás las dependencias necesarias y se creará la carpeta "node_modules").
+
+```
+npm i
+```
+
+- Utiliza el comando npm start para lanzar el proyecto en tu navegador.
+
+```
+npm start
+```
+
 ## CÓMO USAR ESTA APP:
 
 Una vez abierta la app "TaskList by ModBer" siga los siguientes pasos:
@@ -38,7 +63,7 @@ No se preocupe si cierra la aplicación, "TaskList by ModBer" guardará la lista
 
 ## DESCRIPCIÓN TÉCNICA DEL PROYECTO:
 
-Esta App ha sido creada íntegramente con React (usando npx create-react-app).
+Esta App ha sido creada íntegramente con React (usando npx create-react-app). En este caso, al tratarse de un proyecto que empecé en 2022, no recurrí al uso de VITE (que es mi opción por defecto actualmente).
 
 El componente principal "App" pinta un div que contiene:
 
@@ -53,6 +78,8 @@ Los datos de la lista son guardados en el localstorage del navegador en el que s
 El diseño de la aplicación ha sido desarrollado de forma responsive para que se adapte a los diversos dispositivos del mercado (móvil, tablet y pc).
 
 ### JOSE LUIS MODROÑO BERDIÑAS (MODBER) | 2023:
+
+Link a mi perfil de GitHub: https://github.com/JoseLuisModBer
 
 ---
 
@@ -74,6 +101,31 @@ This project has been created by Jose Luis Modroño Berdiñas (ModBer) using Rea
 
 ```
 An easy-to-use tasklist, ideal for making a shopping list or writing down pending tasks. Make your life easier with tasklist by ModBer.
+```
+
+## HOW TO DEPLOY THIS PROJECT ON YOUR PC:
+
+To deploy this project on your PC, just follow these steps:
+
+- Copy the SSH code from my GitHub repository.
+- Use the terminal to position yourself in the path where you want to download my repository.
+- Once positioned, enter the command git clone followed by SSH to clone my repository on your pc.
+
+```
+git clone git@github.com:JoseLuisModBer/tasklist-by-modber-project.git
+```
+
+- Open the project with a code editor (I recommend Visual Studio Code).
+- Use the terminal to run the npm i command (this will install the necessary dependencies and create the "node_modules" folder).
+
+```
+npm i
+```
+
+- Use the npm start command to launch the project in your browser.
+
+```
+npm start
 ```
 
 ## HOW TO USE THIS APP:
@@ -98,7 +150,7 @@ Don't worry if you close the app, "TaskList by ModBer" will save the created tas
 
 ## TECHNICAL DESCRIPTION OF THE PROJECT:
 
-This App has been created entirely with React (using npx create-react-app).
+This App has been created entirely with React (using npx create-react-app). In this case, as it is a project that I started in 2022, I did not resort to using VITE (which is currently my default option).
 
 The main "App" component paints a div containing:
 
@@ -113,3 +165,5 @@ The data of the list is saved in the localstorage of the browser in which this A
 The design of the application has been developed in a responsive way so that it adapts to the various devices on the market (mobile, tablet and PC).
 
 ### JOSE LUIS MODROÑO BERDIÑAS (MODBER) | 2023:
+
+Link to my GitHub profile: https://github.com/JoseLuisModBer
